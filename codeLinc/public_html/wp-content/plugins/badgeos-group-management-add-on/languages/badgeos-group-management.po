@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BadgeOS Community Add-On\n"
+"POT-Creation-Date: 2015-09-30 15:50+0530\n"
+"PO-Revision-Date: 2015-09-30 15:52+0530\n"
+"Last-Translator: Michael Beckwith <michael.d.beckwith@gmail.com>\n"
+"Language-Team: Michael Beckwith <michael.d.beckwith@gmail.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: badgeos-group-management.php:73
+msgid "Please enter a school name"
+msgstr ""
+
+#: badgeos-group-management.php:136
+#, php-format
+msgid ""
+"BadgeOS Group Management requires BadgeOS and has been <a href=\"%s"
+"\">deactivated</a>. Please install and activate BadgeOS and then reactivate "
+"this plugin."
+msgstr ""
+
+#: badgeos-group-management.php:139
+#, php-format
+msgid ""
+"BadgeOS Group Management requires BuddyPress and has been <a href=\"%s"
+"\">deactivated</a>. Please install and activate BuddyPress and then "
+"reactivate this plugin."
+msgstr ""
+
+#: badgeos-group-management.php:142
+#, php-format
+msgid ""
+"BadgeOS Group Management requires BuddyPress Invite Codes be enabled and has "
+"been <a href=\"%s\">deactivated</a>. Please activate <a href=\"%s"
+"\">BuddyPress Invite Codes</a> and then reactivate this plugin."
+msgstr ""
+
+#: includes/badgeos-group-management-functions.php:274
+#: includes/badgeos-group-management-functions.php:275
+#: includes/badgeos-group-management-functions.php:276
+#: includes/badgeos-group-management-functions.php:277
+#: includes/badgeos-user-list.php:173
+#, php-format
+msgid "%1$s <span class=\"count\">(%2$s)</span>"
+msgstr ""
+
+#: includes/badgeos-user-list.php:14 includes/badgeos-users.php:360
+msgid "School Name"
+msgstr ""
+
+#: includes/badgeos-user-list.php:159
+#, php-format
+msgctxt "users"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/badgeos-users.php:12
+msgid "School Admin"
+msgstr ""
+
+#: includes/badgeos-users.php:257
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: includes/badgeos-users.php:317
+msgctxt "user"
+msgid "Add New School"
+msgstr ""
+
+#: includes/badgeos-users.php:360 includes/badgeos-users.php:374
+#: includes/badgeos-users.php:378 includes/badgeos-users.php:397
+#: includes/badgeos-users.php:404
+msgid "(required)"
+msgstr ""
+
+#: includes/badgeos-users.php:362
+msgid "School name field accept, maximum of 50 characters only."
+msgstr ""
+
+#: includes/badgeos-users.php:367
+msgid "School Description"
+msgstr ""
+
+#: includes/badgeos-users.php:369
+msgid "School description field accept, maximum of 250 characters only."
+msgstr ""
+
+#: includes/badgeos-users.php:374
+msgid "Username"
+msgstr ""
+
+#: includes/badgeos-users.php:378
+msgid "E-mail"
+msgstr ""
+
+#: includes/badgeos-users.php:397
+msgid "Password"
+msgstr ""
+
+#: includes/badgeos-users.php:404
+msgid "Repeat Password"
+msgstr ""
+
+#: includes/badgeos-users.php:408
+msgid "Strength indicator"
+msgstr ""
+
+#: includes/badgeos-users.php:418
+msgid "Skip Confirmation Email"
+msgstr ""
+
+#: includes/badgeos-users.php:419
+msgid "Add the user without sending an email that requires their confirmation."
+msgstr ""
+
+#: includes/badgeos-users.php:428
+msgid "Add New School "
+msgstr ""
+
+#: includes/submission-filters.php:26
+msgid "School:"
+msgstr ""
+
+#: includes/submission-filters.php:28
+msgid "All"
+msgstr ""

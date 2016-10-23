@@ -1,0 +1,666 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixed WordPress Theme\n"
+"POT-Creation-Date: 2014-08-17 14:26+0200\n"
+"PO-Revision-Date: 2014-08-17 14:27+0200\n"
+"Last-Translator: Burak Aydın <burak_sdu@outlook.com>\n"
+"Language-Team: Burak Aydin <burak_sdu@outlook.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:21
+msgid "Page not Found. Please search or go"
+msgstr ""
+
+#: ../404.php:21 ../archive.php:50 ../author.php:42 ../category.php:42
+#: ../search.php:42 ../tag.php:42
+msgid "home"
+msgstr ""
+
+#: ../admin/options-init.php:111
+msgid "Section via hook"
+msgstr ""
+
+#: ../admin/options-init.php:112
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../admin/options-init.php:190
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../admin/options-init.php:207
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../admin/options-init.php:208
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../admin/options-init.php:209
+msgid "Tags"
+msgstr ""
+
+#: ../admin/options-init.php:214
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../admin/options-init.php:214
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../admin/options-init.php:239
+msgid "General Settings"
+msgstr ""
+
+#: ../admin/options-init.php:254
+msgid "Logo"
+msgstr ""
+
+#: ../admin/options-init.php:255
+msgid ""
+"Maximum logo size should be 300px x 30px, if you want to seem properly on "
+"retina screens, upload 400px x 30px."
+msgstr ""
+
+#: ../admin/options-init.php:256
+msgid "Upload a Logo"
+msgstr ""
+
+#: ../admin/options-init.php:261
+msgid "Favicon"
+msgstr ""
+
+#: ../admin/options-init.php:262
+msgid "Image should be ico format and 16x16 size ( Exp: favicon.ico ) "
+msgstr ""
+
+#: ../admin/options-init.php:263
+msgid "Upload a favicon"
+msgstr ""
+
+#: ../admin/options-init.php:269
+msgid "CSS Code"
+msgstr ""
+
+#: ../admin/options-init.php:270
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: ../admin/options-init.php:279
+msgid "JS Code"
+msgstr ""
+
+#: ../admin/options-init.php:280
+msgid "Paste your JS code here."
+msgstr ""
+
+#: ../admin/options-init.php:290
+msgid "Themes' Credit Links"
+msgstr ""
+
+#: ../admin/options-init.php:291
+msgid "Theme by Burak Aydin | Powered by WordPress"
+msgstr ""
+
+#: ../admin/options-init.php:298
+msgid "Footer Text"
+msgstr ""
+
+#: ../admin/options-init.php:311
+msgid "Slider Setting"
+msgstr ""
+
+#: ../admin/options-init.php:318
+msgid "Slider"
+msgstr ""
+
+#: ../admin/options-init.php:319
+msgid "Change Sliders' Background Color "
+msgstr ""
+
+#: ../admin/options-init.php:320
+msgid "Slider Color"
+msgstr ""
+
+#: ../admin/options-init.php:329
+msgid "Social Media"
+msgstr ""
+
+#: ../admin/options-init.php:336
+msgid "Facebook"
+msgstr ""
+
+#: ../admin/options-init.php:337 ../admin/options-init.php:346
+#: ../admin/options-init.php:355 ../admin/options-init.php:364
+#: ../admin/options-init.php:373 ../admin/options-init.php:382
+#: ../admin/options-init.php:391 ../admin/options-init.php:400
+#: ../admin/options-init.php:409 ../admin/options-init.php:418
+#: ../admin/options-init.php:427 ../admin/options-init.php:436
+msgid "Ex : http://burak-aydin.com"
+msgstr ""
+
+#: ../admin/options-init.php:338 ../admin/options-init.php:347
+#: ../admin/options-init.php:356 ../admin/options-init.php:365
+#: ../admin/options-init.php:374 ../admin/options-init.php:383
+#: ../admin/options-init.php:392 ../admin/options-init.php:401
+#: ../admin/options-init.php:410 ../admin/options-init.php:419
+#: ../admin/options-init.php:428 ../admin/options-init.php:437
+msgid "Url Validated"
+msgstr ""
+
+#: ../admin/options-init.php:339 ../admin/options-init.php:348
+#: ../admin/options-init.php:357 ../admin/options-init.php:366
+#: ../admin/options-init.php:375 ../admin/options-init.php:384
+#: ../admin/options-init.php:393 ../admin/options-init.php:402
+#: ../admin/options-init.php:411 ../admin/options-init.php:420
+#: ../admin/options-init.php:429 ../admin/options-init.php:438
+msgid "Paste the url"
+msgstr ""
+
+#: ../admin/options-init.php:345
+msgid "Twitter"
+msgstr ""
+
+#: ../admin/options-init.php:354
+msgid "Instagram"
+msgstr ""
+
+#: ../admin/options-init.php:363
+msgid "Pinterest"
+msgstr ""
+
+#: ../admin/options-init.php:372
+msgid "LinkedIn"
+msgstr ""
+
+#: ../admin/options-init.php:381
+msgid "RSS"
+msgstr ""
+
+#: ../admin/options-init.php:390
+msgid "Behance"
+msgstr ""
+
+#: ../admin/options-init.php:399
+msgid "Github"
+msgstr ""
+
+#: ../admin/options-init.php:408
+msgid "Google +"
+msgstr ""
+
+#: ../admin/options-init.php:417
+msgid "WordPress"
+msgstr ""
+
+#: ../admin/options-init.php:426
+msgid "Youtube"
+msgstr ""
+
+#: ../admin/options-init.php:435
+msgid "Flickr"
+msgstr ""
+
+#: ../admin/options-init.php:449
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../admin/options-init.php:450
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../admin/options-init.php:451
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../admin/options-init.php:455
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ../admin/options-init.php:463
+msgid "Import / Export"
+msgstr ""
+
+#: ../admin/options-init.php:464
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: ../admin/options-init.php:483
+msgid "Theme Information"
+msgstr ""
+
+#: ../admin/options-init.php:484
+msgid ""
+"<p class=\"description\">This is the Description. Again HTML is allowed</p>"
+msgstr ""
+
+#: ../admin/options-init.php:502
+msgid "Mixed Theme Help"
+msgstr ""
+
+#: ../admin/options-init.php:503
+msgid ""
+"<p>If you have any issue, you can contact me via this email : mail@burak-"
+"aydin.com</p>"
+msgstr ""
+
+#: ../admin/options-init.php:509
+msgid ""
+"<p>Theme by <a href=\"http://burak-aydin.com\" target=\"_blank\">Burak "
+"Aydin</a></p>"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:196
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:197
+msgid "Install Plugins"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:198
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:210
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:212
+#: ../admin/tgm/class-tgm-plugin-activation.php:1965
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:213
+#: ../admin/tgm/class-tgm-plugin-activation.php:1652
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:556
+#: ../admin/tgm/class-tgm-plugin-activation.php:2182
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1186
+msgid "Private Repository"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1189
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1194
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1197
+msgid "Required"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1197
+msgid "Recommended"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1200
+msgid "Not Installed"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1202
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1304
+#: ../admin/tgm/class-tgm-plugin-activation.php:1412
+msgid "Install"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1326
+#: ../admin/tgm/class-tgm-plugin-activation.php:1413
+msgid "Activate"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1375
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1391
+msgid "Plugin"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1392
+msgid "Source"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1393
+msgid "Type"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1394
+msgid "Status"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1522
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1630
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1948
+msgid "Install package not available."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1949
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1950
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1951
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1952
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1953
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1964
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2078
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2079
+#: ../admin/tgm/class-tgm-plugin-activation.php:2088
+msgid "Show Details"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2079
+#: ../admin/tgm/class-tgm-plugin-activation.php:2088
+msgid "Hide Details"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2080
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2081
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2085
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2086
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2087
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2088
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2089
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2090
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../archive.php:19
+msgid "Monthly Archives"
+msgstr ""
+
+#: ../archive.php:21
+msgid "Daily Archives"
+msgstr ""
+
+#: ../archive.php:23
+msgid "Yearly Archives"
+msgstr ""
+
+#: ../archive.php:25
+msgid "Archives"
+msgstr ""
+
+#: ../archive.php:50 ../author.php:42 ../category.php:42 ../search.php:42
+#: ../tag.php:42
+msgid "No Posts Found. Please search or go"
+msgstr ""
+
+#: ../author.php:18
+msgid "Posts by "
+msgstr ""
+
+#: ../category.php:18
+msgid "Category Posts for"
+msgstr ""
+
+#: ../comments.php:9
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comment ( 1 )"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comments ( % )"
+msgstr ""
+
+#: ../comments.php:27
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:28
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:29
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: ../footer.php:79 ../footer.php:89
+msgid "Theme by"
+msgstr ""
+
+#: ../footer.php:81 ../footer.php:91
+msgid "Powered by"
+msgstr ""
+
+#: ../format-aside.php:18 ../format-audio.php:36 ../format-chat.php:18
+#: ../format-image.php:52 ../format-status.php:24 ../format-video.php:36
+#: ../format.php:53 ../single.php:41
+msgid "0"
+msgstr ""
+
+#: ../format-aside.php:18 ../format-audio.php:36 ../format-chat.php:18
+#: ../format-image.php:52 ../format-status.php:24 ../format-video.php:36
+#: ../format.php:53 ../single.php:41
+msgid "1"
+msgstr ""
+
+#: ../format-aside.php:21 ../format-audio.php:39 ../format-image.php:55
+#: ../format.php:56
+msgid "Read More"
+msgstr ""
+
+#: ../format-chat.php:21
+msgid "Go to Chat"
+msgstr ""
+
+#: ../format-link.php:7
+msgid "Go to link"
+msgstr ""
+
+#: ../format-status.php:27
+msgid "Go to Status"
+msgstr ""
+
+#: ../format-video.php:39
+msgid "Go to Video"
+msgstr ""
+
+#: ../functions.php:29
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions.php:119
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../functions.php:120
+msgid "This widget is located right side as sidebar."
+msgstr ""
+
+#: ../functions.php:130
+msgid "Footer 1"
+msgstr ""
+
+#: ../functions.php:131 ../functions.php:142 ../functions.php:153
+#: ../functions.php:164
+msgid "This widget is located footer."
+msgstr ""
+
+#: ../functions.php:141
+msgid "Footer 2"
+msgstr ""
+
+#: ../functions.php:152
+msgid "Footer 3"
+msgstr ""
+
+#: ../functions.php:163
+msgid "Footer 4"
+msgstr ""
+
+#: ../functions.php:174
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: ../functions.php:175
+msgid "This widget is located right side as sidebar for WooCommerce content"
+msgstr ""
+
+#: ../functions.php:184
+msgid "BuddyPress Sidebar"
+msgstr ""
+
+#: ../functions.php:185
+msgid "This widget is located right frame as sidebar for BuddyPress"
+msgstr ""
+
+#: ../functions.php:194
+msgid "bbPress Sidebar"
+msgstr ""
+
+#: ../functions.php:195
+msgid "This widget is located right frame as sidebar for bbPress"
+msgstr ""
+
+#: ../functions.php:322 ../header.php:68 ../header.php:78
+#, php-format
+msgid "%d"
+msgstr ""
+
+#: ../header.php:81
+msgid "Go to Cart"
+msgstr ""
+
+#: ../header.php:90
+msgid "My Account"
+msgstr ""
+
+#: ../header.php:93
+msgid "Login / Register"
+msgstr ""
+
+#: ../page.php:32 ../single.php:44
+msgid "Edit"
+msgstr ""
+
+#: ../page.php:50 ../single.php:105
+msgid "Comments closed."
+msgstr ""
+
+#: ../search.php:18
+msgid "Search results for "
+msgstr ""
+
+#: ../single.php:79
+msgid "Tags : "
+msgstr ""
+
+#: ../tag.php:18
+msgid "Tags Posts for "
+msgstr ""

@@ -1,0 +1,105 @@
+<?php
+// No direct access, please
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+if ( class_exists( 'WP_Customize_Control' ) && ! class_exists('Generate_Customize_Width_Slider_Control') ) :
+/**
+ *	Create our container width slider control
+ */
+class Generate_Customize_Width_Slider_Control extends WP_Customize_Control
+{
+	// Setup control type
+	public $type = 'gp-width-slider';
+	public $id = '';
+	
+	public function to_json() {
+		parent::to_json();
+		$this->json[ 'link' ] = $this->get_link();
+		$this->json[ 'value' ] = $this->value();
+		$this->json[ 'id' ] = $this->id;
+	}
+	
+	public function content_template() {
+		?>
+		<label>
+			<p style="margin-bottom: 0;">
+				<span class="customize-control-title" style="margin:0;display:inline-block;">
+					{{ data.label }}
+				</span>
+				<span class="value">
+					<input name="{{ data.id }}" type="number" {{{ data.link }}} value="{{{ data.value }}}" class="slider-input" /><span class="px">px</span>
+				</span>
+			</p>
+		</label>
+		<div class="slider"></div>
+		<?php
+	}
+	
+	// Function to enqueue the right jquery scripts and styles
+	public function enqueue() {
+		
+		wp_enqueue_script( 'jquery-ui-core' );
+		wp_enqueue_script( 'jquery-ui-slider' );
+		wp_enqueue_script( 'generate-slider-js', get_template_directory_uri() . '/inc/js/customcontrol.slider.js', array('jquery-ui-slider','customize-controls'), GENERATE_VERSION );
+		wp_enqueue_style('jquery-ui-slider', get_template_directory_uri() . '/inc/css/jquery-ui.structure.css');
+		wp_enqueue_style('jquery-ui-slider-theme', get_template_directory_uri() . '/inc/css/jquery-ui.theme.css');
+		
+	}
+}
+endif;
+
+if ( class_exists( 'WP_Customize_Section' ) && ! class_exists( 'GeneratePress_Upsell_Section' ) ) :
+/**
+ *	Create our upsell section
+ */
+class GeneratePress_Upsell_Section extends WP_Customize_Section {
+
+	public $type = 'gp-upsell-section';
+	public $pro_url = '';
+	public $pro_text = '';
+	public $id = '';
+	
+	public function json() {
+		$json = parent::json();
+		$json['pro_text'] = $this->pro_text;
+		$json['pro_url']  = esc_url( $this->pro_url );
+		$json['id'] = $this->id;
+		return $json;
+	}
+	
+	protected function render_template() {
+		?>
+		<li id="accordion-section-{{ data.id }}" class="generate-upsell-accordion-section control-section-{{ data.type }} cannot-expand accordion-section">
+			<h3><a href="{{ data.pro_url }}" target="_blank">{{ data.pro_text }}</a></h3>
+		</li>
+		<?php
+	}
+}
+endif;
+
+if ( class_exists( 'WP_Customize_Control' ) && ! class_exists( 'Generate_Customize_Misc_Control' ) ) :
+/**
+ * Create our in-section upsell controls
+ */
+class Generate_Customize_Misc_Control extends WP_Customize_Control {
+	public $settings = 'blogname';
+	public $description = '';
+	public $url = '';
+	public $type = 'addon';
+
+	public function to_json() {
+		parent::to_json();
+		$this->json[ 'url' ] = esc_url( $this->url );
+		$this->json[ 'message' ] = __( 'Add-on available','generatepress' );
+	}
+	
+	public function content_template() {
+		?>
+		<span class="get-addon">
+			<a href="{{ data.url }}" target="_blank">{{ data.message }}</a>
+		</span>
+		<p class="description" style="margin-top: 5px;">{{{ data.description }}}</p>
+		<?php
+	}
+}
+endif;

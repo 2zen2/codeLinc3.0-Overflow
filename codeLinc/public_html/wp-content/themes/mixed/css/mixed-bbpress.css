@@ -1,0 +1,64 @@
+.bbpress-wrapper .bbp-forums {
+  border-top: 1px solid #0072e9!important;
+  margin-top: 5em!important;
+}
+.bbpress-wrapper #bbp_search_submit {
+  margin-top: -4px;
+}
+.bbpress-wrapper a.subscription-toggle {
+  padding: 2px 8px;
+  background-color: #0072e9;
+  color: white;
+  margin-left: 1em;
+}
+.bbpress-wrapper a.subscription-toggle:hover {
+  background-color: #0059b6;
+}
+#bbpress-forums {
+  margin-bottom: 9em;
+}
+.bbp-topic-meta img.avatar {
+  margin-top: -8px;
+}
+.bbp-forum-description img.avatar {
+  margin-top: -8px;
+}
+fieldset.bbp-form {
+  border: none!important;
+  padding: 0!important;
+}
+.bbp-template-notice {
+  border-radius: 0!important;
+}
+.bbp-topic-description img.avatar {
+  margin-top: -10px !important;
+}
+.bbp-topic-form,
+.bbp-reply-form {
+  margin-top: 8em;
+}
+.bbp-topic-form legend,
+.bbp-reply-form legend {
+  border-bottom: none;
+  border-left: 5px solid #313742;
+  padding-left: 10px!important;
+  font-weight: bold;
+}
+.bbp-topic-form textarea.wp-editor-area,
+.bbp-reply-form textarea.wp-editor-area {
+  border: 1px solid #ddd;
+}
+.bbp-topic-form .ed_button,
+.bbp-reply-form .ed_button {
+  border-radius: 0!important;
+}
+.bbpress-sidebar dl,
+.bottom-widgets-wrapper dl,
+.bbpress-sidebar dd,
+.bottom-widgets-wrapper dd {
+  text-align: center;
+}
+.bbpress-sidebar dd,
+.bottom-widgets-wrapper dd {
+  margin-bottom: 1.5em;
+}
